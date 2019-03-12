@@ -1,0 +1,45 @@
+PODS:
+  - PINCache (2.3)
+  - PINOperation (1.1.1)
+  - Protobuf (3.6.1)
+  - SnapSDK (1.0.6):
+    - SnapSDK/SCSDKBitmojiKit (= 1.0.6)
+    - SnapSDK/SCSDKCreativeKit (= 1.0.6)
+    - SnapSDK/SCSDKLoginKit (= 1.0.6)
+  - SnapSDK/SCSDKBitmojiKit (1.0.6):
+    - PINCache (~> 2.3)
+    - PINOperation (~> 1.1)
+    - Protobuf (~> 3.5)
+  - SnapSDK/SCSDKCreativeKit (1.0.6):
+    - Protobuf (~> 3.5)
+    - YYImage (~> 1.0.4)
+    - YYImage/WebP
+  - SnapSDK/SCSDKLoginKit (1.0.6):
+    - Protobuf (~> 3.5)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
+
+DEPENDENCIES:
+  - SnapSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PINCache
+    - PINOperation
+    - Protobuf
+    - SnapSDK
+    - YYImage
+
+SPEC CHECKSUMS:
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  SnapSDK: 18c55b6f1e57a325a8cbe9f4e433a8064f20b2cc
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: b235644aafc398fcc366d033334ac3bc1b12e6c6
+
+COCOAPODS: 1.5.3
